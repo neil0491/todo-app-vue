@@ -1,5 +1,5 @@
 <template>
-  <v-list three-line v-if="!model">
+  <v-list three-line v-if="tasks.length !== 0">
     <v-list-item-group
       v-model="taskByStatus"
       active-class="green--text accent-1"
